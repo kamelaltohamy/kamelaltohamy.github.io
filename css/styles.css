@@ -1,0 +1,303 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Fredoka+One|Oswald|Patua+One|Roboto+Condensed|Source+Sans+Pro&display=swap');
+
+
+/* styling the header */
+header {
+  position: fixed;
+  background-color: #f7f8fa;
+  width: 100%;
+  height: 90px;
+
+}
+header nav a img#main-logo {
+  width: 150px;
+  height: 60px;
+  float: left;
+  margin: 15px 0 10px 20px;
+}
+
+header div nav ul {
+  float: right;
+  line-height: 60px;
+}
+header div nav ul li {
+  display: inline;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+header div nav ul li a:link,
+header div nav ul li a:visited
+{
+  color: #2e4258;
+  text-decoration: none;
+  font-family: 'Roboto Condensed';
+  font-size: 18px;
+  padding: 12px;
+}
+header div nav ul li a:hover
+{
+  color: #2ca0dc;
+  text-decoration: none;
+  font-family: 'Roboto Condensed';
+  background-color: rgba(44, 160, 220, 0.2);
+  padding: 12px;
+  border: 1px solid #2ca0dc;
+  border-radius: 5px;
+}
+
+header div.container {
+  width: 97%;
+}
+
+header .button-join:link,
+header .button-join:visited {
+  background-color: white;
+}
+header .button-join:hover {
+  background-color: #4981d6;
+  color: white;
+}
+
+/* BANNER */
+#banner {
+  padding-top: 120px;
+  text-align: center;
+  background-image: url("images/banner.jpg");
+  background-color: #99c6e5;
+  padding: 120px 10px 10px 10px;
+}
+/*#banner #banner-inner  {
+  background-image: url("images/banner.jpeg");
+
+  background-size: cover;
+}*/
+
+header .clearfix1:after {
+  clear: both;
+}
+#banner h1 {
+  color: #2e4258;
+  font-size: 30px;
+  font-family: 'Roboto Condensed';
+}
+#banner p {
+  color: #2e4258;
+  font-size: 1.3em;
+  font-family: "Patua One", sans-serif;
+}
+.container {
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#banner-inner a:link,
+#banner-inner a:visited {
+  display: block;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #2ca0dc;
+  padding: 15px;
+  margin: 50px  auto;
+  border-radius: 9px;
+  border: 1px solid #e3e3e3;
+  font-size: 16px;
+  font-family:  "Patua One", sans-serif;
+}
+#banner-inner a:hover {
+  background-color: #2e4258;
+  border: 2px solid black;
+  color: white;
+}
+/* DIVIONS DESIGN*/
+#division h2 {
+  color: #2e4258;
+  font-size: 31px;
+  font-family: "Patua One";
+  text-align: left;
+  padding-left: 50px;
+}
+
+#division ul {
+  list-style-type: none;
+}
+#division ul li {
+
+  float: left;
+
+}
+#division ul li img {
+  width: 310px;
+  height: 310px;
+}
+.cleard {
+  clear: both;
+}
+
+/* video */
+iframe {
+  margin: 20px;
+  border: 2px solid #eee;
+}
+/* Tinker Does */
+
+#tinkerdoes h2 {
+  color: #2e4258;
+  font-size: 31px;
+  font-family: "Patua One";
+  text-align: left;
+  text-indent: 50px;
+}
+
+#tinkerdoes ul {
+  list-style-type: none;
+}
+#tinkerdoes ul li {
+
+  float: left;
+
+}
+#tinkerdoes ul li img {
+  width: 320px;
+  height: 322px;
+}
+.cleard {
+  clear: both;
+}
+/* START SECTION */
+
+#start div.container{
+  text-align: left;
+  background-image: url('../images/paper.jpg');
+  background-size: cover;
+  width: 1000px;
+  margin: 0px auto;
+  height: 500px;
+}
+
+#start  h3 {
+  color: white ;
+  font-size: 35px ;
+  font-family: "Roboto Condensed";
+
+}
+#start  p{
+  font-family: 'source sans pro', sans-serif;
+  color: white;
+
+}
+#start button {
+  background-color: white;
+  border-style: none;
+  padding: 10px 20px;
+  border-radius: 2px;
+  color: #2e4258;
+}
+#start #startgroup {
+  padding: 80px;
+}
+
+/* footer */
+footer {
+  margin-top: 15px ;
+
+}
+footer nav {
+  width: 1000px;
+
+}
+footer nav #about {
+  float: left;
+  width: 250px;
+  height: 270px;
+  background-color: #ed4b35;
+}
+footer nav #support {
+  float: left;
+  width: 250px;
+  height: 270px;
+  background-color: #f8a131;
+}
+footer nav #follow {
+  float: left;
+  width: 250px;
+  height: 270px;
+  background-color: #25b45c;
+}
+footer nav #autodesk {
+  float: right;
+  width: 250px;
+  height: 270px;
+  background-color: #1167b2;
+}
+
+footer {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+footer #about h3 {
+  font-size: 20px;
+  text-align: left;
+  text-indent: 30px;
+}
+footer #about p {
+  font-size: 16px;
+  text-align: left;
+  margin-left: 30px;
+  width: 200px;
+}
+
+footer #support h3 {
+  font-size: 20px;
+  text-align: left;
+  text-indent: 30px;
+}
+footer  ul{
+  list-style-type: none;
+}
+footer #support {
+  text-align: left;
+}
+footer ul li {
+  padding-bottom: 12px;
+}
+footer #support li a:link,footer #support li a:visited{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+
+}
+footer #support li a:hover {
+  text-decoration: underline;
+}
+footer #follow h3 {
+  font-size: 20px;
+  text-align: left;
+  text-indent: 30px;
+}
+#follow ul li i{
+  color: white;
+}
+#follow ul li {
+  float: left;
+  margin-right: 11px;
+}
+#social-icons {
+  width: 200px;
+}
+.logo-bottom{
+  margin-top: 20px;
+  width: 70%;
+  margin-bottom: 25px;
+}
+#about a {
+  color: white;
+}
+div#autodesk {
+  background-color: blue;
+}
