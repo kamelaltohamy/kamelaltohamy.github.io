@@ -1,0 +1,66 @@
+.btn-trans { 
+  color: #FFFFFF; 
+  background-color: transparent; 
+  border-color: #ffffff; 
+} 
+ 
+.btn-trans:hover, 
+.btn-trans:focus, 
+.btn-trans:active, 
+.btn-trans.active, 
+.open .dropdown-toggle.btn-trans { 
+  color: #FFFFFF; 
+  background-color: #7C7585; 
+  border-color: #fff; 
+} 
+ 
+.btn-trans:active, 
+.btn-trans.active, 
+.open .dropdown-toggle.btn-trans { 
+  background-image: none; 
+} 
+ 
+.btn-trans.disabled, 
+.btn-trans[disabled], 
+fieldset[disabled] .btn-trans, 
+.btn-trans.disabled:hover, 
+.btn-trans[disabled]:hover, 
+fieldset[disabled] .btn-trans:hover, 
+.btn-trans.disabled:focus, 
+.btn-trans[disabled]:focus, 
+fieldset[disabled] .btn-trans:focus, 
+.btn-trans.disabled:active, 
+.btn-trans[disabled]:active, 
+fieldset[disabled] .btn-trans:active, 
+.btn-trans.disabled.active, 
+.btn-trans[disabled].active, 
+fieldset[disabled] .btn-trans.active { 
+  background-color: #1B7CBD; 
+  border-color: #000000; 
+} 
+ 
+.btn-trans .badge { 
+  color: #1B7CBD; 
+  background-color: #FFFFFF; 
+}
+
+
+/* MEDIA QUIRES*/
+@media(max-width:768px) {
+  .header {
+    text-align: center;
+    padding-top: 20%;
+  }
+  .header h1 {
+    font-size: 5em;
+  }
+  .header p {
+    font-size: ;
+  }
+  .header .btn {
+    padding: 5px 12px 5px 12px;
+  }
+  .header img {
+    padding: 5%;
+  }
+}
